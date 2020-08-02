@@ -1,17 +1,24 @@
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: IndieFlower;
   font-size: 16px;
   line-height: 1;
+  background: url(/assets/img/cool-background.png)
 }
 
+/* font */
+@font-face {
+  font-family: IndieFlower;
+  src: url(/assets/font/IndieFlower-Regular.ttf)
+}
 textarea{
   background: transparent;
-  border: none;
   resize: none;
   color: #000000;
+  border-top: 1px solid black;
   border-left: 1px solid black;
   padding: 10px;
+  font-style: bold;
 }
 
 .jumbotron {
@@ -19,21 +26,20 @@ textarea{
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 20px solid black;
 }
 
 .row {
   white-space: pre-wrap;
-  border-top: 1px solid white;
   margin-top: 25px;
 }
 
+/* styling of time boxes */
 .time-color {
   background-color: rgba(144, 186, 241, 0.575);
   text-align: center;
   border: 5px solid black;
   font-weight: bold;
-
   display: flex;
   align-items: center;
   justify-content: center
