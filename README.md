@@ -26,9 +26,9 @@
 
 - CSS and Bootstrap are used for styling of the website
 
-- Javascript is used for powering the password generator
+- Javascript, JQuery, and JSON are used for powering the password generator
 
-- Moment is used to display date and time
+- Moment.js is used to display date and time
 ```
 
 ---
