@@ -80,6 +80,7 @@ textarea{
   background-color: #06AED5;
   color: white;
   font-size: 2em;
+  border: 5px solid black;
 }
 
 /* save button hover effect */
