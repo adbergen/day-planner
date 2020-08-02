@@ -21,41 +21,30 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
-  white-space: pre-wrap;
-}
-
-.time-block{
-  text-align: center;
-  border-radius: 15px;
-}
-
 .row {
   white-space: pre-wrap;
   border-top: 1px solid white;;
 }
 
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
-}
-
+/* timeblocks style for the past */
 .past {
   background-color: rgb(189, 189, 189);
   border-color: gray;
 }
 
+/* timeblocks style for the present */
 .present {
   background-color: crimson;
   border-color: crimson;
 }
 
+/* timeblocks style for the future */
 .future {
   background-color: rgb(90, 177, 90);
   border-color: rgb(41, 136, 41);
 }
 
+/* save button styling */
 #save {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -65,6 +54,7 @@ textarea{
   font-size: 2em;
 }
 
+/* save button hover effect */
 #save:hover {
   font-size: 50px;
   transition: all .5s ease-in-out;

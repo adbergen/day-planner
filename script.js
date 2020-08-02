@@ -67,6 +67,7 @@ function hourNumberFromHourString(hourString) {
   }
 }
 
+// local storage
 function loadCorrectDataset() {
   result = localStorage.getItem('workDay')
   return (result ? result : workDay);
@@ -79,7 +80,7 @@ function initializeLocalStorage() {
 function saveToLocalStorage(dayObj) {
   localStorage.setItem('workDay', JSON.stringify(dayObj));
 }
-
+// page persist
 function saveSchedule(hourString, val) {
   if (!localStorage.getItem('workDay')) {
     initializeLocalStorage();
@@ -87,8 +88,6 @@ function saveSchedule(hourString, val) {
 
   let workHours = JSON.parse(localStorage.getItem('workDay'));
   workHours[hourString] = val
-
-
 
   saveToLocalStorage(workHours);
 }
