@@ -3,7 +3,7 @@ body {
   font-family: IndieFlower, Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1;
-  background: url(/assets/img/cool-background.png)
+  background: url(/assets/img/cool-background.png);
 }
 
 /* font */
