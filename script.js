@@ -35,9 +35,9 @@ for (const property in workDay) {
   let presentHour = moment().hour();
   let timeString = $(timeId).text();
   let timeNumber = hourNumberFromHourString(timeString);
-  if (timeNumber < presentHour) {
+  if (timeNumber > presentHour) {
     $(textEntry).addClass("past");
-  } else if (timeNumber > presentHour) {
+  } else if (timeNumber < presentHour) {
     $(textEntry).addClass("future");
   } else {
     $(textEntry).addClass("present");
@@ -87,6 +87,8 @@ function saveSchedule(hourString, val) {
 
   let workHours = JSON.parse(localStorage.getItem('workDay'));
   workHours[hourString] = val
+
+
 
   saveToLocalStorage(workHours);
 }
