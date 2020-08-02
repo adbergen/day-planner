@@ -1,6 +1,6 @@
 
 body {
-  font-family: IndieFlower;
+  font-family: IndieFlower, Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1;
   background: url(../img/cool-background.png)
@@ -18,7 +18,8 @@ textarea{
   border-top: 1px solid black;
   border-left: 1px solid black;
   padding: 10px;
-  font-style: bold;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .jumbotron {
@@ -34,6 +35,11 @@ textarea{
   margin-top: 25px;
 }
 
+#currentDay {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+
 /* styling of time boxes */
 .time-color {
   background-color: rgba(144, 186, 241, 0.575);
@@ -42,7 +48,8 @@ textarea{
   font-weight: bold;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  font-size: 20px;
 }
 
 /* timeblocks style for the past */
