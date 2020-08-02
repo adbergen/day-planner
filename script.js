@@ -18,6 +18,7 @@ $(document).ready(function () {
     updateCalendarTasks(JSON.parse(localStorage.getItem('workDay')));
   }
 
+  // moment.js time
   function time() {
     $('#currentDay').html(moment().format('MMMM Do YYYY, h:mm:ss a'));
   }
@@ -25,8 +26,7 @@ $(document).ready(function () {
   setInterval(time, 1000);
 })
 
-$('#date-today h6').text(moment().format('dddd') + ", " + moment().format('MMMM Do YYYY, h:mm:ss a'));
-
+// past, future, present color coded display
 let counter = 1;
 for (const property in workDay) {
   let textEntry = "#text-entry" + counter;
@@ -45,6 +45,7 @@ for (const property in workDay) {
   counter++;
 }
 
+// save button
 $("button").click(function () {
   value = $(this).siblings("textarea").val();
   hourString = $(this).siblings("div").text();
