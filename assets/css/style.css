@@ -1,17 +1,11 @@
-
 body {
-  font-family: IndieFlower, Arial, Helvetica, sans-serif;
+  font-family: "Indie Flower", cursive;
   font-size: 16px;
   line-height: 1;
-  background: url("/assets/img/cool-background.png");
+  background-image: url("../img/background.png");
 }
 
-/* font */
-@font-face {
-  font-family: IndieFlower;
-  src: url("/assets/font/IndieFlower-Regular.ttf");
-}
-textarea{
+textarea {
   background: transparent;
   resize: none;
   color: #000000;
