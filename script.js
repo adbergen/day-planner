@@ -1,3 +1,4 @@
+// global key value pairs
 let workDay = {
   "8 AM": "",
   "9 AM": "",
@@ -11,6 +12,7 @@ let workDay = {
   "5 PM": "",
 };
 
+// JQuery ready
 $(document).ready(function () {
   if (!localStorage.getItem('workDay')) {
     updateCalendarTasks(workDay);
@@ -53,6 +55,7 @@ $("button").click(function () {
   saveSchedule(hourString, value);
 });
 
+// timenumber function of key value pairs to determine preceding color coded display
 function hourNumberFromHourString(hourString) {
   switch (hourString) {
     case "8 AM": return 8;

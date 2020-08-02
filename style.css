@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -40,8 +41,8 @@ textarea{
 
 /* timeblocks style for the future */
 .future {
-  background-color: rgb(90, 177, 90);
-  border-color: rgb(41, 136, 41);
+  background-color: rgb(104, 202, 104);
+  border-color: rgb(38, 124, 38);
 }
 
 /* save button styling */
