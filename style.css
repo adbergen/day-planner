@@ -27,6 +27,17 @@ textarea{
   border-top: 1px solid white;;
 }
 
+.time-color {
+  background-color: rgba(144, 186, 241, 0.575);
+  text-align: center;
+  border: 5px solid black;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
 /* timeblocks style for the past */
 .past {
   background-color: rgb(189, 189, 189);
