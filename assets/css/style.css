@@ -9,7 +9,7 @@ body {
 /* font */
 @font-face {
   font-family: IndieFlower;
-  src: url(../font/IndieFlower-Regular.ttf)
+  src: url(/assets/font/IndieFlower-Regular.ttf)
 }
 textarea{
   background: transparent;
