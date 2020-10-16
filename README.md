@@ -1,60 +1,76 @@
-# Work Day Scheduler
+<h1 align="center">
+Work Day Scheduler
+</h1>
+<h4 align="center" style="margin-bottom:10px">Be sure to star my configuration repo so you can keep up to date on any daily progress!</h4>
+<div align="center">
+  <h4>
+    </a>
+    <a href="https://github.com/adbergen/work-day-scheduler/stargazers"><img src="https://img.shields.io/github/stars/adbergen/work-day-scheduler.svg?style=plasticr"/></a>
+    <a href="https://github.com/adbergen/work-day-scheduler/commits/master"><img src="https://img.shields.io/github/last-commit/adbergen/work-day-scheduler.svg?style=plasticr"/></a>
+        <a href="https://github.com/adbergen/work-day-scheduler/commits/master"><img src="https://img.shields.io/github/commit-activity/y/adbergen/work-day-scheduler.svg?style=plasticr"/></a>
+</h4>
+<br>
+</div>
+<p align="center"><font size="3">
+This is a daily planner application.</p>
+<div align="center"><a name="menu"></a>
+  <h4>
+    <a href="https://github.com/adbergen/work-day-scheduler">
+      Github Repository
+    </a>
+<span> | </span>
+<a href="https://adbergen.github.io/work-day-scheduler/">
+      Github Pages
+    </a>
+  </h4>
+</div>
 
-- This is a calendar application that allows the user to manage their time more effectively by saving events for each hour of the day in a daily planner. Time is displayed in real time to assist the user in scheduling. This application will run in the browser with a clean and polished user interface. This application is responsive, allowing it to adapt to multiple screen sizes, including mobile.
+![Screenshot of application demo](assets/demo.png)
 
----
+<hr>
 
-## File Contents
+## Table of Contents
 
-```
-- README.md (this file)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
 
-- style.css
+<hr>
 
-- index.html
+## Installation
 
-- script.js
+- Open the index.html file in your web browser
 
-```
+<hr>
 
----
+## Usage
 
-## Languages Used
+- This application allows the user to manager their time more effectively
+- Save events for each hour
+- Current day and time is listed at the top of the page
+- Save button saves the event to local storage
+- page persists through refresh
 
-```
-- HTML/HTML5 is used for structure of information for webpage
+<hr>
 
-- CSS and Bootstrap are used for styling of the website
+## Technologies
 
-- Javascript, JQuery, and JSON are used for powering the password generator
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Bootstrap</li>
+<li>Javascript, JQuery, JSON</li>
+<li>Moment.js</li>
+<li>GitHub</li>
+</ul>
 
-- Moment.js is used to display date and time
-```
+<hr>
 
----
+## Contributing
 
-## Requirements Met
+- Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-```
-- Functional, deployed application
+- Contributors: Anthony Bergen
 
-- GitHub repository with README describing the project
-
-- Each page has valid and correct, semantic HTML with validation service used
-
-- When the planner is opened the current day is displayed at the top of the calendar
-
-- When scrolling down, timeblocks are displayed with standard business hours
-
-- Each timeblock is color coded to indicate whether it is in the past(gray), present(red), or future(green)
-
-- When timeblock is clicked, text can be entered as an event
-
-- When the save button is clicked, the event is saved in local storage
-
-- When the page is refreshed, the saved events persist
-
-```
-
----
----
+<hr><hr>
