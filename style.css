@@ -2,7 +2,7 @@ body {
   font-family: "Indie Flower", cursive;
   font-size: 16px;
   line-height: 1;
-  background-image: url("../img/background.png");
+  background-image: url("./assets/background.png");
 }
 
 textarea {
@@ -30,7 +30,7 @@ textarea {
 }
 
 #currentDay {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 25px;
 }
 
@@ -71,7 +71,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #06aed5;
   color: white;
   font-size: 2em;
   border: 5px solid black;
@@ -80,5 +80,5 @@ textarea {
 /* save button hover effect */
 #save:hover {
   font-size: 50px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
